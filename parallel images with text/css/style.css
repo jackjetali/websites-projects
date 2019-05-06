@@ -23,3 +23,27 @@ body,html{
 	background-image: url(../images/ali-laptop.jpg);
 	min-height: 400px;
 }
+
+.image1, .image2, .image3, .image4{
+	position: relative;
+	opacity: .70;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.section{
+	text-align: center;
+	padding: 50px 80px;
+}
+
+.section-yellow{
+	background-color: #CCC11189;
+	color: #666;
+}
+
+.section-dark{
+	background-color: #182e34;
+	color: #ddd;
+}
