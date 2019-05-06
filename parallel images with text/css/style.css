@@ -1,6 +1,6 @@
 body,html{
 	height: 100%;
-	marging: 0;
+	margin: 0;
 	font-size: 16px;
 	font-family: 'lato', sans-serif;
 	font-weight: 400;
@@ -21,7 +21,7 @@ body,html{
 }
 .image4{
 	background-image: url(../images/ali-laptop.jpg);
-	min-height: 400px;
+	min-height: 100%;
 }
 
 .image1, .image2, .image3, .image4{
@@ -46,4 +46,31 @@ body,html{
 .section-dark{
 	background-color: #182e34;
 	color: #ddd;
+}
+
+.text{
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	text-align: center;
+	color: #000;
+	font-size: 27px;
+	letter-spacing: 8px;
+	text-transform: uppercase;
+}
+
+.text .border{
+	background-color: #111;
+	color: #fff;
+	padding: 20px;
+}
+
+.text .trans{
+	background-color: transparent;
+}
+
+@media (max-width: 578px){
+	.image1, .image2, .image3, .image4{
+		background-attachment: scroll;
+	}
 }
