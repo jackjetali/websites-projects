@@ -1,0 +1,25 @@
+body,html{
+	height: 100%;
+	marging: 0;
+	font-size: 16px;
+	font-family: 'lato', sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color: #666;
+}
+.image1{
+	background-image: url(../images/Ali-app-developer-coding.jpg);
+	min-height: 100%;
+}
+.image2{
+	background-image: url(../images/Aliniko-coffee-cup.jpg);
+	min-height: 400px;
+}
+.image3{
+	background-image: url(../images/aliniko.jpg);
+	min-height: 400px;
+}
+.image4{
+	background-image: url(../images/ali-laptop.jpg);
+	min-height: 400px;
+}
