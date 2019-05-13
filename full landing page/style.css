@@ -1,0 +1,21 @@
+*, body{
+	margin: 0px;
+	padding: 0px;
+	font-family: lato, sans-serif;
+}
+
+.intro{
+	background-image: url(img/blurred-background-coffee-cup-contemporary.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	margin-top: 0;
+
+}
+
+.text{
+	padding: 2rem;
+	margin-top: 1rem;
+	line-height: 2rem;
+
+}
