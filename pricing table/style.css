@@ -1,7 +1,12 @@
 body{
 	font-family: 'Tahoma', sans-serif;
-	background: #333;
+	background: #ee0;
 	color: #fff;
+}
+
+h3{
+	text-align: center;
+	color: #444;
 }
 
 .col{
@@ -22,17 +27,38 @@ body{
 }
 
 .price-box:hover, .price-box.best{
-	box-shadow: 0 10px 15px 0 #ded;
+	box-shadow: 0 10px 15px 0 #3C8;
 }
 
 .price-box .header{
 	background-color: #666;
 	color: #fff;
 	font-size: 25px;
-}
+} 
 
 .price-box li{
 	padding: 20px;
 	border-bottom: 1px solid #eee;
 	text-align: center;
+}
+
+.price-box .emph{
+	background-color: #f4f4f4;
+	font-size: 20px;
+}
+
+.button{
+	background-color: #0C7CF2;
+	border: none;
+	color: #fff;
+	padding: 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+@media ( max-width: 768px) {
+	.col{
+		width: 100%;
+	}
 }
